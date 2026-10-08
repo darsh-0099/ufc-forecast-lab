@@ -9,7 +9,7 @@ The existing experimental baseline is preserved as `continuity-v1`, tagged `base
 | Allen–Duncan October 10 frozen CSV/JSON | Both downloaded artifacts recovered and copied byte-for-byte; 12 fights; all shared fields agree |
 | Allen–Duncan M0, odds, M1, methods and simulation output | Present in JSON/CSV; seed 2026100801; 100,000 saved draws per fight; 1.2 million total |
 | Allen–Duncan original simulation script and environment | Script recovered; exact replay succeeds under Python 3.12.14 / NumPy 2.3.5; historical environment version remains unrecorded |
-| UFC 332 original forecast and scorecard | Displayed records recovered; 14 winner probabilities and six-branch method table transcribed; original files/script/counts missing |
+| UFC 332 original forecast and scorecard | Displayed records recovered; 14 winner probabilities and six-branch method table transcribed; standalone files/script not supplied; exact counts undocumented |
 | Rosas–Barcelos scorecard and final board | Displayed records recovered; 12 winner probabilities and result claims; replacement and void retained |
 | Rosas original complete pre-event forecast | Missing; complete methods, independent inputs, prices, seed and script not recovered |
 | Earlier research history | Partial; DWCS Week 7, Steveson-related revisions and initial architecture/version records missing |
@@ -19,7 +19,7 @@ The existing experimental baseline is preserved as `continuity-v1`, tagged `base
 
 Raw recovered records are kept private. Sanitized numerical reconstructions and independently checked outcomes are versioned in `baselines/continuity-v1/`; no private conversation content is included. Raw artifacts remain in `private/continuity/`, with original source records outside Git.
 
-The repeated search covered the original forecasting chat, available recent/pinned conversation inventory and filename searches of Downloads, local Codex documents and project mirrors. No additional UFC 332/Rosas original artifacts were found. Current chat retrieval provides no older-page cursor or attachment payloads; previously recovered older records remain preserved locally. Reference-only messages cannot be expanded into missing files. The bounded reconstruction therefore uses the preserved displayed values, with provenance labels and null missing fields.
+The repeated search covered the original forecasting chat, available recent/pinned conversation inventory and filename searches of Downloads, local Codex documents and project mirrors. Earlier UFC 332/Rosas forecasts were delivered as displayed records, without standalone CSV/JSON files or simulation scripts. Their absence is not evidence of lost files. Current chat retrieval provides no older-page cursor or attachment payloads; previously recovered older records remain preserved locally. Reference-only messages cannot be expanded into missing files. The bounded reconstruction therefore uses the preserved displayed values, with provenance labels and null missing fields.
 
 ## Historical benchmark reconciliation
 
@@ -51,7 +51,7 @@ The original script has now executed 100,000 draws per fight, 1.2 million total,
 
 The earlier audit using Python's `random.Random` remains saved as a different, deterministic protocol. It matches none of the original count arrays because it does not use the original NumPy multinomial sampler. It is not the original execution replay. Exact replay confirms execution reproducibility; it does not validate heuristic probabilities, source snapshots or pre-event authorship.
 
-UFC 332 displayed method sums are 99.9% for Talbott and Ribovics and 100.1% for Wint. Displayed GTD differs from branch sums for Pinas (30.8 versus 30.7), Wint (29.9 versus 30.0) and Hernandez (56.1 versus 56.2). Preserve every displayed value; request the full-precision originals rather than renormalizing. The Hernandez replacement's reported simulated frequencies sum to 100.1%; they are rounded sample output, not input probabilities.
+UFC 332 displayed method sums are 99.9% for Talbott and Ribovics and 100.1% for Wint. Displayed GTD differs from branch sums for Pinas (30.8 versus 30.7), Wint (29.9 versus 30.0) and Hernandez (56.1 versus 56.2). Preserve every displayed value without renormalizing; full-precision originals are not available and must not be assumed to exist. The Hernandez replacement's reported simulated frequencies sum to 100.1%; they are rounded sample output, not input probabilities.
 
 ## Market benchmarks
 
@@ -59,7 +59,7 @@ UFC 332 reports a 13-fight comparison excluding Smith: M1 Brier 0.1331 versus ma
 
 ## Recovery requirements and development gate
 
-The October 10 script gap is resolved, including exact output replay. Remaining requirements: original UFC 332 and Rosas frozen files/scripts with full-precision distributions; prior project conversation export or earlier research records; complete closing-market snapshots for the 13-fight comparison; and source/feature snapshots behind the captured October 10 analyst inputs. Preserve original filenames and bytes where possible. Full archive completeness remains unverified.
+The October 10 script gap is resolved, including exact output replay. Earlier UFC 332 and Rosas standalone files/scripts were never supplied, so they are not outstanding recovery requests. Displayed forecasts remain the available historical prediction evidence; exact execution cannot be replayed from them. Remaining evidence gaps: earlier research records; complete closing-market snapshots for the 13-fight comparison; and source/feature snapshots behind the captured October 10 analyst inputs. Preserve original filenames and bytes where possible. Full archive completeness remains unverified.
 
 Run `python3 tools/audit_continuity.py` from the repository to reproduce the numerical audit when the private archive is present. For original execution replay, use Python with NumPy and `tools/replay_original.py --output <fresh-directory>`. Run `python3 -m unittest discover -s tests -v` for application and continuity tests; the original-replay test requires NumPy and the private script. Model improvements remain deferred while broader continuity gaps are resolved. Historical provenance gaps remain outstanding; remote persistence is established.
 

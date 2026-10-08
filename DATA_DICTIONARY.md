@@ -7,7 +7,7 @@ Future M2 feature observations require both `observed_at` (when measured) and `a
 | Level | Meaning |
 |---|---|
 | Recovered artifact | A downloaded CSV/JSON preserved byte-for-byte with SHA-256; historical authorship and freeze time are not proved by the hash |
-| Transcribed record | A displayed historical value preserved exactly as text; not the original full-precision artifact |
+| Transcribed record | A displayed historical value preserved exactly as text; the reconstructed label describes its machine-readable transcription and does not imply a standalone original file ever existed |
 | Reported benchmark | Historical aggregate claim; stored separately from independent recomputation |
 | Externally checked outcome | Winner/method/round checked against a named public source, with access method and conflicts recorded |
 | New audit execution | A newly executed calculation or simulation with its own protocol; never labeled the historical execution |

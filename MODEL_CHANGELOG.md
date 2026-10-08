@@ -35,3 +35,7 @@ Future entries must identify the problem, evidence, affected model version, chro
 ## 2026-10-08 — Repository publication
 
 Published the reviewed toolkit and sanitized continuity-v1 baseline through the connected GitHub account. Verified identical local and remote file trees and all 15 local tests. Private recovery files remain excluded. Original local history and the annotated baseline tag remain locally preserved. No model coefficients changed.
+
+## Historical artifact availability clarification
+
+Earlier UFC 332 and Rosas forecasts were delivered as displayed records without standalone CSV/JSON files or scripts. Updated continuity terminology to distinguish unsupplied artifacts from lost files. Retained reconstructed transcription labels, all frozen values and the existing baseline unchanged. Historical execution remains unverified where seeds, code and counts were not recorded.
