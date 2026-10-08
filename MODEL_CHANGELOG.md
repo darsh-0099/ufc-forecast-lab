@@ -31,3 +31,7 @@ Executed a new, explicitly labeled audit simulation with 100,000 draws for each 
 The established market weight is 25%. Recovered scorecards retain prospect uncertainty and propose opponent-adjusted grappling sequences and directional finishing hazard as research priorities. Their original introduction dates, precise coefficient revisions and earlier DWCS/Steveson records have not been recovered. Do not invent version numbers, implementation history or parameter values for those changes.
 
 Future entries must identify the problem, evidence, affected model version, chronological evaluation cohort, comparison against the frozen baseline, validation outcome and approval for adopting a persistent change. Distinguish proposals from implemented and evaluated changes.
+
+## 2026-10-08 — Repository publication
+
+Published the reviewed toolkit and sanitized continuity-v1 baseline through the connected GitHub account. Verified identical local and remote file trees and all 15 local tests. Private recovery files remain excluded. Original local history and the annotated baseline tag remain locally preserved. No model coefficients changed.
