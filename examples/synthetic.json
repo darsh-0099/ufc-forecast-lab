@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "event_id": "synthetic-demo",
+  "event_start": "2030-01-12T23:00:00Z",
+  "forecast_at": "2030-01-10T12:00:00Z",
+  "fights": [
+    {
+      "fight_id": "demo-1",
+      "fighter_a": "Example Fighter A",
+      "fighter_b": "Example Fighter B",
+      "p_a": 0.6,
+      "m0_a": 0.58,
+      "market_a": 0.66,
+      "methods": {"a_ko": 0.2, "a_sub": 0.1, "a_dec": 0.3, "b_ko": 0.15, "b_sub": 0.05, "b_dec": 0.2}
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "baseline_version": "continuity-v1",
+  "scoring_source": "independently verified winners joined to preserved forecast probabilities",
+  "events": {
+    "rosas-barcelos": {
+      "n": 12,
+      "correct": 7,
+      "n_picks": 12,
+      "accuracy": 0.583333333333,
+      "brier": 0.2670579166666667,
+      "log_loss": 0.7326953809157736,
+      "thresholds": [
+        {
+          "minimum_pct": 60,
+          "n": 9,
+          "correct": 5
+        },
+        {
+          "minimum_pct": 70,
+          "n": 4,
+          "correct": 1
+        },
+        {
+          "minimum_pct": 80,
+          "n": 1,
+          "correct": 1
+        },
+        {
+          "minimum_pct": 90,
+          "n": 0,
+          "correct": 0
+        }
+      ],
+      "calibration": [
+        {
+          "lower_pct": 50,
+          "upper_pct": 60,
+          "n": 3,
+          "mean_confidence": 0.5613333333333334,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lower_pct": 60,
+          "upper_pct": 70,
+          "n": 5,
+          "mean_confidence": 0.6408,
+          "accuracy": 0.8
+        },
+        {
+          "lower_pct": 70,
+          "upper_pct": 80,
+          "n": 3,
+          "mean_confidence": 0.7313333333333333,
+          "accuracy": 0.0
+        },
+        {
+          "lower_pct": 80,
+          "upper_pct": 90,
+          "n": 1,
+          "mean_confidence": 0.851,
+          "accuracy": 1.0
+        },
+        {
+          "lower_pct": 90,
+          "upper_pct": 101,
+          "n": 0,
+          "mean_confidence": null,
+          "accuracy": null
+        }
+      ],
+      "exact_method_n": 0,
+      "exact_method_correct": null
+    },
+    "ufc-332": {
+      "n": 14,
+      "correct": 13,
+      "n_picks": 14,
+      "accuracy": 0.928571428571,
+      "brier": 0.124373,
+      "log_loss": 0.4194343339672671,
+      "thresholds": [
+        {
+          "minimum_pct": 60,
+          "n": 11,
+          "correct": 10
+        },
+        {
+          "minimum_pct": 70,
+          "n": 7,
+          "correct": 7
+        },
+        {
+          "minimum_pct": 80,
+          "n": 2,
+          "correct": 2
+        },
+        {
+          "minimum_pct": 90,
+          "n": 0,
+          "correct": 0
+        }
+      ],
+      "calibration": [
+        {
+          "lower_pct": 50,
+          "upper_pct": 60,
+          "n": 3,
+          "mean_confidence": 0.558,
+          "accuracy": 1.0
+        },
+        {
+          "lower_pct": 60,
+          "upper_pct": 70,
+          "n": 4,
+          "mean_confidence": 0.6725,
+          "accuracy": 0.75
+        },
+        {
+          "lower_pct": 70,
+          "upper_pct": 80,
+          "n": 5,
+          "mean_confidence": 0.7386,
+          "accuracy": 1.0
+        },
+        {
+          "lower_pct": 80,
+          "upper_pct": 90,
+          "n": 2,
+          "mean_confidence": 0.8495,
+          "accuracy": 1.0
+        },
+        {
+          "lower_pct": 90,
+          "upper_pct": 101,
+          "n": 0,
+          "mean_confidence": null,
+          "accuracy": null
+        }
+      ],
+      "exact_method_n": 14,
+      "exact_method_correct": 7
+    }
+  },
+  "combined": {
+    "n": 26,
+    "correct": 20,
+    "n_picks": 26,
+    "accuracy": 0.769230769231,
+    "brier": 0.19022757692307693,
+    "log_loss": 0.5640163556358085,
+    "thresholds": [
+      {
+        "minimum_pct": 60,
+        "n": 20,
+        "correct": 15
+      },
+      {
+        "minimum_pct": 70,
+        "n": 11,
+        "correct": 8
+      },
+      {
+        "minimum_pct": 80,
+        "n": 3,
+        "correct": 3
+      },
+      {
+        "minimum_pct": 90,
+        "n": 0,
+        "correct": 0
+      }
+    ],
+    "calibration": [
+      {
+        "lower_pct": 50,
+        "upper_pct": 60,
+        "n": 6,
+        "mean_confidence": 0.5596666666666666,
+        "accuracy": 0.8333333333333334
+      },
+      {
+        "lower_pct": 60,
+        "upper_pct": 70,
+        "n": 9,
+        "mean_confidence": 0.6548888888888889,
+        "accuracy": 0.7777777777777778
+      },
+      {
+        "lower_pct": 70,
+        "upper_pct": 80,
+        "n": 8,
+        "mean_confidence": 0.735875,
+        "accuracy": 0.625
+      },
+      {
+        "lower_pct": 80,
+        "upper_pct": 90,
+        "n": 3,
+        "mean_confidence": 0.85,
+        "accuracy": 1.0
+      },
+      {
+        "lower_pct": 90,
+        "upper_pct": 101,
+        "n": 0,
+        "mean_confidence": null,
+        "accuracy": null
+      }
+    ]
+  },
+  "joined_rows": [
+    {
+      "fight_id": "rosas-barcelos:01",
+      "p_a_pct": "57.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:02",
+      "p_a_pct": "56.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:03",
+      "p_a_pct": "65.0",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:04",
+      "p_a_pct": "70.6",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:05",
+      "p_a_pct": "66.0",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:06",
+      "p_a_pct": "76.3",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:07",
+      "p_a_pct": "61.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:08",
+      "p_a_pct": "62.8",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:09",
+      "p_a_pct": "54.8",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:10",
+      "p_a_pct": "65.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:11",
+      "p_a_pct": "72.5",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "rosas-barcelos:12",
+      "p_a_pct": "85.1",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:01",
+      "p_a_pct": "67.1",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:02",
+      "p_a_pct": "77.6",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:03",
+      "p_a_pct": "68.1",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:04",
+      "p_a_pct": "70.8",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:05",
+      "p_a_pct": "66.5",
+      "actual_a_win": 0,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:06",
+      "p_a_pct": "57.4",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:07",
+      "p_a_pct": "80.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:08",
+      "p_a_pct": "75.4",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:09",
+      "p_a_pct": "75.1",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:10",
+      "p_a_pct": "53.6",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:11",
+      "p_a_pct": "67.3",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:12",
+      "p_a_pct": "56.4",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:13",
+      "p_a_pct": "89.6",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    },
+    {
+      "fight_id": "ufc-332:14",
+      "p_a_pct": "70.4",
+      "actual_a_win": 1,
+      "outcome_source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "forecast_origin": "reconstructed_displayed_record"
+    }
+  ],
+  "pending_fight_ids": [
+    "allen-duncan:01",
+    "allen-duncan:02",
+    "allen-duncan:03",
+    "allen-duncan:04",
+    "allen-duncan:05",
+    "allen-duncan:06",
+    "allen-duncan:07",
+    "allen-duncan:08",
+    "allen-duncan:09",
+    "allen-duncan:10",
+    "allen-duncan:11",
+    "allen-duncan:12"
+  ],
+  "void_fight_ids": [
+    "rosas-barcelos:gall-dumas-void"
+  ],
+  "rounded_method_issues": [
+    {
+      "fight_id": "ufc-332:02",
+      "branch_sum_pct": "99.9",
+      "gtd_branch_sum_pct": "52.4",
+      "gtd_displayed_pct": "52.4",
+      "action": "preserved_without_normalization"
+    },
+    {
+      "fight_id": "ufc-332:03",
+      "branch_sum_pct": "99.9",
+      "gtd_branch_sum_pct": "51.9",
+      "gtd_displayed_pct": "51.9",
+      "action": "preserved_without_normalization"
+    },
+    {
+      "fight_id": "ufc-332:07",
+      "branch_sum_pct": "100.0",
+      "gtd_branch_sum_pct": "30.7",
+      "gtd_displayed_pct": "30.8",
+      "action": "preserved_without_normalization"
+    },
+    {
+      "fight_id": "ufc-332:09",
+      "branch_sum_pct": "100.1",
+      "gtd_branch_sum_pct": "30.0",
+      "gtd_displayed_pct": "29.9",
+      "action": "preserved_without_normalization"
+    },
+    {
+      "fight_id": "ufc-332:11",
+      "branch_sum_pct": "100.0",
+      "gtd_branch_sum_pct": "56.2",
+      "gtd_displayed_pct": "56.1",
+      "action": "preserved_without_normalization"
+    }
+  ],
+  "limitations": [
+    "Reconstructed predictions retain displayed precision; original underlying files and freeze timestamps remain unavailable for two cards.",
+    "Rosas complete method distribution is missing; its reported 2/12 exact-method score is not independently recomputed.",
+    "Historical market comparison remains reported-only without a complete timestamped market snapshot."
+  ]
+}

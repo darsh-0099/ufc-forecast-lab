@@ -1,0 +1,22 @@
+{
+  "rosas-barcelos-recorded-board": {
+    "kind": "reconstruction",
+    "original_file_available": false,
+    "input_sha256": "4bbc954a5517c35e25ce86dfd997da5b28dc3c3cbf0f537aba307d9e4a64e8b4"
+  },
+  "ufc-332-recorded-board": {
+    "kind": "reconstruction",
+    "original_file_available": false,
+    "input_sha256": "4bbc954a5517c35e25ce86dfd997da5b28dc3c3cbf0f537aba307d9e4a64e8b4",
+    "method_table_sha256": "11e7c3950f183bb3236a76d73352e8af553eda82a70bce2f347b0fc0adbe437b"
+  },
+  "allen-duncan-original-json": {
+    "kind": "recovered_original",
+    "input_sha256": "2417b78ed8852ad01b971d74f192eebd95834634bd441c9a98bd39edaa8b6944"
+  },
+  "private_originals": {
+    "ufc_forecast_lab_2026-10-10_frozen.csv": "d6d9e82e077a4f8c8031b8a57666ab22fd46c4bfa30974c5c0f157d204234c7a",
+    "ufc_forecast_lab_2026-10-10_frozen.json": "2417b78ed8852ad01b971d74f192eebd95834634bd441c9a98bd39edaa8b6944",
+    "ufc_forecast_lab_2026-10-10.py": "78dbce559f8d40820b4e58850b8aee54de40d632fdee80880833498dd352c7ce"
+  }
+}

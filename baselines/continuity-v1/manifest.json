@@ -1,0 +1,14 @@
+{
+  "version": "continuity-v1",
+  "created_on": "2026-10-08",
+  "experimental_model": "existing M0 heuristic / M1 75-25 blend; unchanged",
+  "archive_complete": false,
+  "files": {
+    "data/forecasts.json": "481b9a4bb11c60280b5afce549b60603c22623d58f1eb526e2de9055daf64ee3",
+    "data/outcomes.json": "4c8d8f41c41d661e4cb452d415c8b90388d2767a2e9cb9fbe3a604656c79a765",
+    "data/reported-benchmarks.json": "dd55dffb8e3889bc01a134705780a27d656df84e5cf365ee0ad9df0eca7bc314",
+    "data/sources.json": "58fbfb4b22e78da7bf1788df378d8a5a97fc16f91511ce294410737b1c0a5e40",
+    "metrics.json": "79fcccce182d494624ea62a307e1c2323fdfe364e88930c3991c87606a922154",
+    "README.md": "2334c5f9504c37af2b51c9b4bcb4396fce4d8b560b023075c20de8491b04b9d4"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "verification_method": "Official UFC result text obtained through web search; outcomes transcribed independently of prediction correctness flags",
+  "rows": [
+    {
+      "fight_id": "ufc-332:01",
+      "event_id": "ufc-332",
+      "fighter_a": "Silva",
+      "fighter_b": "Wang",
+      "winner": "Silva",
+      "method": "DEC",
+      "round": 5,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:02",
+      "event_id": "ufc-332",
+      "fighter_a": "Talbott",
+      "fighter_b": "Figueiredo",
+      "winner": "Talbott",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:03",
+      "event_id": "ufc-332",
+      "fighter_a": "Ribovics",
+      "fighter_b": "Green",
+      "winner": "Ribovics",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:04",
+      "event_id": "ufc-332",
+      "fighter_a": "Soldić",
+      "fighter_b": "Williams",
+      "winner": "Soldić",
+      "method": "DEC",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:05",
+      "event_id": "ufc-332",
+      "fighter_a": "Gautier",
+      "fighter_b": "Kopylov",
+      "winner": "Kopylov",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:06",
+      "event_id": "ufc-332",
+      "fighter_a": "Rodriguez",
+      "fighter_b": "Coria",
+      "winner": "Rodriguez",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:07",
+      "event_id": "ufc-332",
+      "fighter_a": "Pinas",
+      "fighter_b": "Pulyaev",
+      "winner": "Pinas",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:08",
+      "event_id": "ufc-332",
+      "fighter_a": "McGhee",
+      "fighter_b": "Romero",
+      "winner": "McGhee",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:09",
+      "event_id": "ufc-332",
+      "fighter_a": "Wint",
+      "fighter_b": "Armand",
+      "winner": "Wint",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:10",
+      "event_id": "ufc-332",
+      "fighter_a": "Walker",
+      "fighter_b": "Parkin",
+      "winner": "Walker",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:11",
+      "event_id": "ufc-332",
+      "fighter_a": "Hernandez",
+      "fighter_b": "dos Anjos",
+      "winner": "Hernandez",
+      "method": "KO_TKO",
+      "round": 2,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:12",
+      "event_id": "ufc-332",
+      "fighter_a": "Naurdiev",
+      "fighter_b": "Vettori",
+      "winner": "Naurdiev",
+      "method": "DEC",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:13",
+      "event_id": "ufc-332",
+      "fighter_a": "Smith",
+      "fighter_b": "Whitehead",
+      "winner": "Smith",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "ufc-332:14",
+      "event_id": "ufc-332",
+      "fighter_a": "Nolan",
+      "fighter_b": "McGee",
+      "winner": "Nolan",
+      "method": "KO_TKO",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:01",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Rosas",
+      "fighter_b": "Barcelos",
+      "winner": "Rosas",
+      "method": "KO_TKO",
+      "round": 5,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:02",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Perez",
+      "fighter_b": "Dumont",
+      "winner": "Perez",
+      "method": "DEC",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:03",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Hernandez",
+      "fighter_b": "Dumas",
+      "winner": "Hernandez",
+      "method": "SUB",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:04",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Osmanli",
+      "fighter_b": "Akylbek",
+      "winner": "Akylbek",
+      "method": "DQ",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:05",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Tina Black",
+      "fighter_b": "Melissa Amaya",
+      "winner": "Tina Black",
+      "method": "KO_TKO",
+      "round": 2,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:06",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Nakamura",
+      "fighter_b": "Hiestand",
+      "winner": "Hiestand",
+      "method": "SUB",
+      "round": 2,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:07",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Vieira",
+      "fighter_b": "Bryczek",
+      "winner": "Vieira",
+      "method": "DEC",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:08",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Bellato",
+      "fighter_b": "Edwards",
+      "winner": "Edwards",
+      "method": "KO_TKO",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:09",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Harrell",
+      "fighter_b": "Brener",
+      "winner": "Brener",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:10",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Jackson",
+      "fighter_b": "Simon",
+      "winner": "Jackson",
+      "method": "KO_TKO",
+      "round": 2,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:11",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Castaneda",
+      "fighter_b": "Alatengheili",
+      "winner": "Alatengheili",
+      "method": "DEC",
+      "round": 3,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    },
+    {
+      "fight_id": "rosas-barcelos:12",
+      "event_id": "rosas-barcelos",
+      "fighter_a": "Jauregui",
+      "fighter_b": "Demopoulos",
+      "winner": "Jauregui",
+      "method": "KO_TKO",
+      "round": 1,
+      "source_url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+      "checked_on": "2026-10-08",
+      "verification": "independently_checked_official_results"
+    }
+  ],
+  "aliases": [
+    {
+      "event_id": "rosas-barcelos",
+      "recorded_label": "Machado",
+      "canonical_label": "Tina Black",
+      "source_url": "https://www.ufc.com/athlete/valesca-machado",
+      "basis": "UFC athlete page labels Tina Black and the Amaya vs Machado bout; Valesca Machado is the same fighter."
+    },
+    {
+      "event_id": "rosas-barcelos",
+      "recorded_label": "Amaya",
+      "canonical_label": "Melissa Amaya",
+      "source_url": "https://www.ufc.com/athlete/valesca-machado",
+      "basis": "Opponent named in UFC athlete bout history."
+    },
+    {
+      "event_id": "ufc-332",
+      "recorded_label": "RDA",
+      "canonical_label": "dos Anjos",
+      "source_url": "https://www.ufc.com/news/ufc-332-silva-vs-wang-official-scorecards",
+      "basis": "Rafael dos Anjos opponent of Alexander Hernandez."
+    }
+  ],
+  "unresolved_fields": [
+    {
+      "fight_id": "rosas-barcelos:03",
+      "field": "time",
+      "values": [
+        "0:50",
+        "0:57"
+      ],
+      "source_urls": [
+        "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards",
+        "https://www.ufc.com/event/ufc-fight-night-september-26-2026"
+      ],
+      "impact": "No impact on winner, method-group, round or binary score."
+    }
+  ]
+}

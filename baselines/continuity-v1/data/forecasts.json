@@ -1,0 +1,802 @@
+{
+  "schema_version": 1,
+  "baseline_version": "continuity-v1",
+  "reconstructed_on": "2026-10-08",
+  "probability_units": "percent stored as original displayed decimal strings",
+  "events": [
+    {
+      "event_id": "rosas-barcelos",
+      "event_date": "2026-09-26",
+      "declared_freeze_date": null,
+      "trusted_freeze_timestamp": null,
+      "status": "completed",
+      "fights": [
+        {
+          "fight_id": "rosas-barcelos:01",
+          "fighter_a_as_recorded": "Rosas",
+          "fighter_b_as_recorded": "Barcelos",
+          "p_a_pct": "57.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:02",
+          "fighter_a_as_recorded": "Perez",
+          "fighter_b_as_recorded": "Dumont",
+          "p_a_pct": "56.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:03",
+          "fighter_a_as_recorded": "Hernandez",
+          "fighter_b_as_recorded": "Dumas",
+          "p_a_pct": "65.0",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:04",
+          "fighter_a_as_recorded": "Osmanli",
+          "fighter_b_as_recorded": "Akylbek",
+          "p_a_pct": "70.6",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:05",
+          "fighter_a_as_recorded": "Machado",
+          "fighter_b_as_recorded": "Amaya",
+          "p_a_pct": "66.0",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:06",
+          "fighter_a_as_recorded": "Nakamura",
+          "fighter_b_as_recorded": "Hiestand",
+          "p_a_pct": "76.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:07",
+          "fighter_a_as_recorded": "Vieira",
+          "fighter_b_as_recorded": "Bryczek",
+          "p_a_pct": "61.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:08",
+          "fighter_a_as_recorded": "Bellato",
+          "fighter_b_as_recorded": "Edwards",
+          "p_a_pct": "62.8",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:09",
+          "fighter_a_as_recorded": "Harrell",
+          "fighter_b_as_recorded": "Brener",
+          "p_a_pct": "54.8",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:10",
+          "fighter_a_as_recorded": "Jackson",
+          "fighter_b_as_recorded": "Simon",
+          "p_a_pct": "65.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:11",
+          "fighter_a_as_recorded": "Castaneda",
+          "fighter_b_as_recorded": "Alatengheili",
+          "p_a_pct": "72.5",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        },
+        {
+          "fight_id": "rosas-barcelos:12",
+          "fighter_a_as_recorded": "Jauregui",
+          "fighter_b_as_recorded": "Demopoulos",
+          "p_a_pct": "85.1",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": null,
+          "gtd_pct": null,
+          "source_id": "rosas-barcelos-recorded-board"
+        }
+      ]
+    },
+    {
+      "event_id": "ufc-332",
+      "event_date": "2026-10-03",
+      "declared_freeze_date": null,
+      "trusted_freeze_timestamp": null,
+      "status": "completed",
+      "fights": [
+        {
+          "fight_id": "ufc-332:01",
+          "fighter_a_as_recorded": "Silva",
+          "fighter_b_as_recorded": "Wang",
+          "p_a_pct": "67.1",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "10.0",
+            "a_sub": "6.0",
+            "a_dec": "51.1",
+            "b_ko": "16.2",
+            "b_sub": "3.0",
+            "b_dec": "13.7"
+          },
+          "gtd_pct": "64.8",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:02",
+          "fighter_a_as_recorded": "Talbott",
+          "fighter_b_as_recorded": "Figueiredo",
+          "p_a_pct": "77.6",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "28.6",
+            "a_sub": "7.6",
+            "a_dec": "41.4",
+            "b_ko": "7.6",
+            "b_sub": "3.7",
+            "b_dec": "11.0"
+          },
+          "gtd_pct": "52.4",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:03",
+          "fighter_a_as_recorded": "Ribovics",
+          "fighter_b_as_recorded": "Green",
+          "p_a_pct": "68.1",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "28.9",
+            "a_sub": "5.0",
+            "a_dec": "34.2",
+            "b_ko": "12.1",
+            "b_sub": "2.0",
+            "b_dec": "17.7"
+          },
+          "gtd_pct": "51.9",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:04",
+          "fighter_a_as_recorded": "Soldić",
+          "fighter_b_as_recorded": "Williams",
+          "p_a_pct": "70.8",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "43.2",
+            "a_sub": "4.0",
+            "a_dec": "23.6",
+            "b_ko": "16.8",
+            "b_sub": "2.0",
+            "b_dec": "10.4"
+          },
+          "gtd_pct": "34.0",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:05",
+          "fighter_a_as_recorded": "Gautier",
+          "fighter_b_as_recorded": "Kopylov",
+          "p_a_pct": "66.5",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "40.0",
+            "a_sub": "4.0",
+            "a_dec": "22.5",
+            "b_ko": "19.9",
+            "b_sub": "2.0",
+            "b_dec": "11.6"
+          },
+          "gtd_pct": "34.1",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:06",
+          "fighter_a_as_recorded": "Rodriguez",
+          "fighter_b_as_recorded": "Coria",
+          "p_a_pct": "57.4",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "18.1",
+            "a_sub": "11.9",
+            "a_dec": "27.4",
+            "b_ko": "15.2",
+            "b_sub": "6.0",
+            "b_dec": "21.4"
+          },
+          "gtd_pct": "48.8",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:07",
+          "fighter_a_as_recorded": "Pinas",
+          "fighter_b_as_recorded": "Pulyaev",
+          "p_a_pct": "80.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "47.1",
+            "a_sub": "10.0",
+            "a_dec": "23.2",
+            "b_ko": "8.1",
+            "b_sub": "4.1",
+            "b_dec": "7.5"
+          },
+          "gtd_pct": "30.8",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:08",
+          "fighter_a_as_recorded": "McGhee",
+          "fighter_b_as_recorded": "Romero",
+          "p_a_pct": "75.4",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "35.9",
+            "a_sub": "7.9",
+            "a_dec": "31.6",
+            "b_ko": "13.0",
+            "b_sub": "3.0",
+            "b_dec": "8.6"
+          },
+          "gtd_pct": "40.2",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:09",
+          "fighter_a_as_recorded": "Wint",
+          "fighter_b_as_recorded": "Armand",
+          "p_a_pct": "75.1",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "45.6",
+            "a_sub": "7.8",
+            "a_dec": "21.7",
+            "b_ko": "13.7",
+            "b_sub": "3.0",
+            "b_dec": "8.3"
+          },
+          "gtd_pct": "29.9",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:10",
+          "fighter_a_as_recorded": "Walker",
+          "fighter_b_as_recorded": "Parkin",
+          "p_a_pct": "53.6",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "30.9",
+            "a_sub": "4.1",
+            "a_dec": "18.6",
+            "b_ko": "23.1",
+            "b_sub": "4.9",
+            "b_dec": "18.4"
+          },
+          "gtd_pct": "37.0",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:11",
+          "fighter_a_as_recorded": "Hernandez",
+          "fighter_b_as_recorded": "RDA",
+          "p_a_pct": "67.3",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "22.0",
+            "a_sub": "7.7",
+            "a_dec": "37.6",
+            "b_ko": "6.6",
+            "b_sub": "7.5",
+            "b_dec": "18.6"
+          },
+          "gtd_pct": "56.1",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:12",
+          "fighter_a_as_recorded": "Naurdiev",
+          "fighter_b_as_recorded": "Vettori",
+          "p_a_pct": "56.4",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "16.9",
+            "a_sub": "4.9",
+            "a_dec": "34.6",
+            "b_ko": "8.9",
+            "b_sub": "4.1",
+            "b_dec": "30.6"
+          },
+          "gtd_pct": "65.2",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:13",
+          "fighter_a_as_recorded": "Smith",
+          "fighter_b_as_recorded": "Whitehead",
+          "p_a_pct": "89.6",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "52.2",
+            "a_sub": "12.9",
+            "a_dec": "24.5",
+            "b_ko": "5.9",
+            "b_sub": "2.0",
+            "b_dec": "2.5"
+          },
+          "gtd_pct": "27.0",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        },
+        {
+          "fight_id": "ufc-332:14",
+          "fighter_a_as_recorded": "Nolan",
+          "fighter_b_as_recorded": "McGee",
+          "p_a_pct": "70.4",
+          "origin": "reconstructed_displayed_record",
+          "methods_pct": {
+            "a_ko": "19.9",
+            "a_sub": "8.9",
+            "a_dec": "41.6",
+            "b_ko": "5.0",
+            "b_sub": "7.9",
+            "b_dec": "16.7"
+          },
+          "gtd_pct": "58.3",
+          "source_id": "ufc-332-recorded-board",
+          "methods_origin": "reconstructed_rounded_frozen_simulation_frequencies"
+        }
+      ]
+    },
+    {
+      "event_id": "allen-duncan",
+      "event_date": "2026-10-10",
+      "declared_freeze_date": "2026-10-08",
+      "trusted_freeze_timestamp": null,
+      "status": "pending",
+      "fights": [
+        {
+          "fight_id": "allen-duncan:01",
+          "fighter_a_as_recorded": "Brendan Allen",
+          "fighter_b_as_recorded": "Christian Leroy Duncan",
+          "p_a_pct": "55.8",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "11.2",
+            "a_sub": "23.4",
+            "a_dec": "21.2",
+            "b_ko": "23.0",
+            "b_sub": "1.8",
+            "b_dec": "19.4"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "40.6",
+          "m0_a_pct": "55.6301",
+          "market_a_pct": "56.2044",
+          "odds_a": -140,
+          "odds_b": 120,
+          "simulation_counts": [
+            11194,
+            23371,
+            21268,
+            22999,
+            1729,
+            19439
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:02",
+          "fighter_a_as_recorded": "Matheus Camilo",
+          "fighter_b_as_recorded": "Jai Herbert",
+          "p_a_pct": "60.2",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "19.9",
+            "a_sub": "9.0",
+            "a_dec": "31.3",
+            "b_ko": "16.7",
+            "b_sub": "2.4",
+            "b_dec": "20.7"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "52.0",
+          "m0_a_pct": "59.01",
+          "market_a_pct": "63.8554",
+          "odds_a": -200,
+          "odds_b": 165,
+          "simulation_counts": [
+            19845,
+            8950,
+            31777,
+            16619,
+            2361,
+            20448
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:03",
+          "fighter_a_as_recorded": "Loopy Godinez",
+          "fighter_b_as_recorded": "Ketlen Souza",
+          "p_a_pct": "65.2",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "5.2",
+            "a_sub": "7.8",
+            "a_dec": "52.2",
+            "b_ko": "9.4",
+            "b_sub": "2.1",
+            "b_dec": "23.3"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "75.5",
+          "m0_a_pct": "64.8427",
+          "market_a_pct": "66.3648",
+          "odds_a": -225,
+          "odds_b": 185,
+          "simulation_counts": [
+            5105,
+            7973,
+            51867,
+            9510,
+            2123,
+            23422
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:04",
+          "fighter_a_as_recorded": "Andre Fili",
+          "fighter_b_as_recorded": "Kai Kamaka III",
+          "p_a_pct": "53.7",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "10.7",
+            "a_sub": "4.3",
+            "a_dec": "38.7",
+            "b_ko": "14.8",
+            "b_sub": "1.9",
+            "b_dec": "29.6"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "68.3",
+          "m0_a_pct": "52.2017",
+          "market_a_pct": "58.2993",
+          "odds_a": -155,
+          "odds_b": 130,
+          "simulation_counts": [
+            10656,
+            4316,
+            38797,
+            14779,
+            1823,
+            29629
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:05",
+          "fighter_a_as_recorded": "Malcolm Wellmaker",
+          "fighter_b_as_recorded": "Otari Tanzilovi",
+          "p_a_pct": "60.2",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "27.1",
+            "a_sub": "3.0",
+            "a_dec": "30.1",
+            "b_ko": "6.0",
+            "b_sub": "6.0",
+            "b_dec": "27.8"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "57.9",
+          "m0_a_pct": "58.0798",
+          "market_a_pct": "66.3648",
+          "odds_a": -225,
+          "odds_b": 185,
+          "simulation_counts": [
+            27084,
+            3076,
+            30203,
+            5859,
+            5878,
+            27900
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:06",
+          "fighter_a_as_recorded": "Julius Walker",
+          "fighter_b_as_recorded": "Gerald Meerschaert",
+          "p_a_pct": "66.6",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "32.0",
+            "a_sub": "6.6",
+            "a_dec": "28.0",
+            "b_ko": "4.0",
+            "b_sub": "18.7",
+            "b_dec": "10.7"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "38.7",
+          "m0_a_pct": "65.0208",
+          "market_a_pct": "71.3551",
+          "odds_a": -290,
+          "odds_b": 235,
+          "simulation_counts": [
+            31913,
+            6712,
+            28032,
+            3968,
+            18697,
+            10678
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:07",
+          "fighter_a_as_recorded": "Francisco Prado",
+          "fighter_b_as_recorded": "Ismael Bonfim",
+          "p_a_pct": "44.8",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "15.2",
+            "a_sub": "7.2",
+            "a_dec": "22.4",
+            "b_ko": "20.4",
+            "b_sub": "3.9",
+            "b_dec": "30.9"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "53.3",
+          "m0_a_pct": "43.1305",
+          "market_a_pct": "50.0",
+          "odds_a": -110,
+          "odds_b": -110,
+          "simulation_counts": [
+            15295,
+            7219,
+            22414,
+            20302,
+            3950,
+            30820
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:08",
+          "fighter_a_as_recorded": "Niko Price",
+          "fighter_b_as_recorded": "Leon Shahbazyan",
+          "p_a_pct": "45.0",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "21.6",
+            "a_sub": "3.2",
+            "a_dec": "20.2",
+            "b_ko": "26.4",
+            "b_sub": "13.8",
+            "b_dec": "14.8"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "35.0",
+          "m0_a_pct": "46.1222",
+          "market_a_pct": "41.7007",
+          "odds_a": 130,
+          "odds_b": -155,
+          "simulation_counts": [
+            21736,
+            3167,
+            20012,
+            26489,
+            13741,
+            14855
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:09",
+          "fighter_a_as_recorded": "Felipe Franco",
+          "fighter_b_as_recorded": "Brendson Ribeiro",
+          "p_a_pct": "75.1",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "32.3",
+            "a_sub": "9.8",
+            "a_dec": "33.0",
+            "b_ko": "14.4",
+            "b_sub": "2.5",
+            "b_dec": "8.0"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "41.0",
+          "m0_a_pct": "75.0163",
+          "market_a_pct": "75.4313",
+          "odds_a": -370,
+          "odds_b": 290,
+          "simulation_counts": [
+            32427,
+            9843,
+            32813,
+            14280,
+            2569,
+            8068
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:10",
+          "fighter_a_as_recorded": "Allen Frye Jr.",
+          "fighter_b_as_recorded": "RJ Harris",
+          "p_a_pct": "30.3",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "18.2",
+            "a_sub": "0.9",
+            "a_dec": "11.2",
+            "b_ko": "39.7",
+            "b_sub": "12.6",
+            "b_dec": "17.4"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "28.6",
+          "m0_a_pct": "30.8759",
+          "market_a_pct": "28.6449",
+          "odds_a": 235,
+          "odds_b": -290,
+          "simulation_counts": [
+            18084,
+            904,
+            11018,
+            39739,
+            12728,
+            17527
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:11",
+          "fighter_a_as_recorded": "Alice Pereira",
+          "fighter_b_as_recorded": "Daria Zhelezniakova",
+          "p_a_pct": "54.2",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "14.6",
+            "a_sub": "4.4",
+            "a_dec": "35.2",
+            "b_ko": "11.0",
+            "b_sub": "2.7",
+            "b_dec": "32.1"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "67.3",
+          "m0_a_pct": "53.1568",
+          "market_a_pct": "57.4468",
+          "odds_a": -150,
+          "odds_b": 125,
+          "simulation_counts": [
+            14628,
+            4531,
+            34940,
+            11003,
+            2730,
+            32168
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        },
+        {
+          "fight_id": "allen-duncan:12",
+          "fighter_a_as_recorded": "Ernesta Kareckaite",
+          "fighter_b_as_recorded": "Melissa Gatto",
+          "p_a_pct": "44.7",
+          "origin": "extracted_from_recovered_original",
+          "source_id": "allen-duncan-original-json",
+          "methods_pct": {
+            "a_ko": "6.2",
+            "a_sub": "3.6",
+            "a_dec": "34.9",
+            "b_ko": "8.3",
+            "b_sub": "13.8",
+            "b_dec": "33.2"
+          },
+          "methods_origin": "original_frozen_unconditional_probabilities",
+          "gtd_pct": "68.1",
+          "m0_a_pct": "43.9672",
+          "market_a_pct": "46.7532",
+          "odds_a": 105,
+          "odds_b": -125,
+          "simulation_counts": [
+            6078,
+            3598,
+            35098,
+            8264,
+            13765,
+            33197
+          ],
+          "simulation_seed": 2026100801,
+          "simulation_draws": 100000
+        }
+      ]
+    }
+  ],
+  "void_forecasts": [
+    {
+      "fight_id": "rosas-barcelos:gall-dumas-void",
+      "fighter_a_as_recorded": "Gall",
+      "fighter_b_as_recorded": "Dumas",
+      "p_a_pct": "58.3",
+      "origin": "reconstructed_displayed_record",
+      "status": "void",
+      "replacement_fight_id": "rosas-barcelos:03"
+    }
+  ]
+}

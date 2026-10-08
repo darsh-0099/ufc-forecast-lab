@@ -1,0 +1,89 @@
+{
+  "rosas_barcelos": {
+    "n": 12,
+    "correct": 7,
+    "brier": "0.2671",
+    "log_loss": "0.7327",
+    "exact_method_correct": 2,
+    "confidence_thresholds": {
+      "60": "5/9",
+      "70": "1/4",
+      "80": "1/1",
+      "90": "0 predictions"
+    },
+    "market_comparison_status": "No paired timestamp-consistent complete market; unavailable"
+  },
+  "ufc_332": {
+    "n": 14,
+    "correct": 13,
+    "brier": "0.1244",
+    "log_loss": "0.4194",
+    "exact_method_correct": 7,
+    "decision_vs_finish_correct": 9,
+    "confidence_thresholds": {
+      "60": "10/11",
+      "70": "7/7",
+      "80": "2/2",
+      "90": "0 predictions"
+    },
+    "market_comparison": {
+      "n": 13,
+      "excluded": "Smith–Whitehead",
+      "m1_brier": "0.1331",
+      "market_brier": "0.1376",
+      "m1_log_loss": "0.4433",
+      "market_log_loss": "0.4480",
+      "status": "reported summary; complete paired price dataset and snapshot timestamp missing",
+      "available_pairs": [
+        [
+          "Silva",
+          -205,
+          170
+        ],
+        [
+          "Talbott",
+          -700,
+          500
+        ],
+        [
+          "Ribovics",
+          -218,
+          180
+        ],
+        [
+          "Soldić",
+          -205,
+          170
+        ],
+        [
+          "Gautier",
+          -238,
+          195
+        ],
+        [
+          "Pinas",
+          -550,
+          410
+        ],
+        [
+          "McGhee",
+          -550,
+          410
+        ],
+        [
+          "Walker",
+          -112,
+          -108
+        ]
+      ]
+    }
+  },
+  "cumulative": {
+    "n": 26,
+    "correct": 20,
+    "brier": "0.1902",
+    "log_loss": "0.5640",
+    "exact_method_correct": 9
+  },
+  "provenance": "reported_historical_summaries; not independently scored results"
+}
